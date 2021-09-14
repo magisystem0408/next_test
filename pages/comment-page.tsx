@@ -1,13 +1,13 @@
 import Layout from "../components/layout";
 
-const Home: React.FC = () => {
+const CommentPage: React.FC = () => {
     return (
 
-        <Layout title="Home">
+        <Layout title="Commnet">
             <p className="text-4xl">
-                welcome Hello Nextjs
+                comment page
             </p>
         </Layout>
     )
 }
-export default Home
+export default CommentPage

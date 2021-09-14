@@ -1,13 +1,12 @@
 import Layout from "../components/layout";
 
-const Home: React.FC = () => {
+const ContextPage: React.FC = () => {
     return (
-
-        <Layout title="Home">
+        <Layout title="Context">
             <p className="text-4xl">
-                welcome Hello Nextjs
+                context page
             </p>
         </Layout>
     )
 }
-export default Home
+export default ContextPage
